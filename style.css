@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 300px;
+    padding-bottom: 150px;
+  
+    
+}
+body{
+    color: rgb(24, 23, 23);
+}
+
+.nav-bar{background-color:coral;
+    display: flex;
+justify-content: center;
+
+
+}
+.nav-bar a{
+    text-decoration: none;
+    padding:20px ;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+    
+    
+}
+.nav-bar a:hover{
+    background-color: chocolate;
+    transform: scale(1.1) 
+}
+@media screen and (max-width:600px) {
+.nav-bar{
+ flex-direction: column;
+ 
+padding: 15px;
+ 
+}
+.nav-bar a{
+background-color: coral;
+margin: 10px ;
+text-align:center ;
+border-radius: 5px;
+}
+
+}
+
+
+.first-word{
+    color:coral
+
+}
+.top-banner{
+    width: 100%;
+    display: flex;
+}
+@media screen and (max-width:600px) {
+    .top-banner{
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+    
+}
+.top-banner-work{
+    margin-top: 5%;
+    width:40%;
+  
+}
+h1,h2,h3{
+    margin-left: 10%;
+    
+}
+h1,h2{
+    font-size: 40px;
+}
+
+h4{
+    margin-left: 45px;
+}
+
+.top-banner-button{
+    background: linear-gradient(to right, coral,pink);
+    width:30px;
+    padding:2px 40px;
+    border-radius: 5px;
+    color:black;
+    opacity: 0.8;
+}
+.top-banner-button:hover{
+    opacity: 1;
+
+}
+.top-image img{
+    width: 80%;
+   
+   
+}
+.mid-banner{
+    background-image: url("image/7.png");
+    background-repeat: no-repeat;
+    width: 100%;
+   
+ margin-top: 15%;
+ display: flex;
+
+}
+@media screen and (max-width:600px) {
+    .mid-banner{
+        padding-top: 10%;
+        flex-direction:column;
+        width: 100%;
+        height: auto;
+        background-color:lightgoldenrodyellow;
+
+     
+    }
+    
+}
+.mid-image{
+    margin-left: 20%;
+    height: 0%;
+}
+
+.mid-image img{
+width:39%;
+padding-top: 8%;
+}
+.mid-banner-button{
+    background: linear-gradient(to right, coral,pink);
+    width:30px;
+    padding:3px 45px;
+    border-radius: 5px;
+    color:black;
+    opacity: 0.8;
+    
+}
+.mid-banner-button:hover{
+    opacity: 1;
+
+}
+
+.mid-banner-work{
+    padding-top: 30px;
+   
+    width: 50%;
+}
+
+.semi-mid{
+    padding-top: 70px;
+   padding-bottom: 20px;
+    text-align: center;
+}
+
+.last-banner{
+    margin-left: 25px;
+    display: flex;
+
+}
+@media screen and (max-width:600px) {
+    .last-banner{
+     flex-direction: row;
+        height:50%;
+        width: 100%;
+    }
+    
+}
+.last-banner-box1{
+    
+        box-shadow: 5px 7px 40px gray;
+        height: 120%;
+        width: 20%;
+        margin-left: 10%;
+        border-radius: 10px;
+       
+  transition: 1s;
+    
+}
+
+.last-banner-box1:hover{
+  transform: scale(1.2);
+}
+.last-banner-box1 img{
+    width: 60%;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.last-banner-box1-title{
+
+padding-left: 20px;
+}
+
+
+
+
+.last-banner-box2{
+    
+    box-shadow: 5px 7px 40px gray;
+    height: 120%;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 10px;
+   
+    transition: 1s;
+
+}
+
+.last-banner-box2:hover{
+transform: scale(1.2);
+}
+.last-banner-box2 img{
+width: 60%;
+margin-left: 50px;
+border-radius: 10px;
+margin-top: 20px;
+
+}
+
+
+.last-banner-box3{
+    
+    box-shadow: 5px 7px 40px gray;
+    height: 120%;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 10px;
+   
+    transition: 1s;
+
+}
+
+.last-banner-box3:hover{
+transform: scale(1.2);
+}
+
+
+    
+.last-banner-box3 img{
+width: 60%;
+margin-left: 50px;
+border-radius: 10px;
+margin-top: 20px;
+
+}
+.finish{
+    box-shadow: 5px 7px 40px gray;
+    height: 5%;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding:25px;
+    display: flex;
+
+}
+@media screen and (max-width:600px){
+    .finish{
+        display: block;
+        height: auto;
+    }
+    
+}
+
+.finish-box{
+    padding-left: 15%;
+}
+.footer-style{
+    background-color: black; 
+    text-align: center;
+  
+   box-shadow: 5px 7px 40px gray;
+   height: 5%;
+  
+  
+   border-radius: 10px;
+   padding:25px;
+   margin-top: 20px;
+  
+}
+.footer-style p{
+  color: aliceblue;
+
+  
+}
+.h3{
+    color: aliceblue;
+}
